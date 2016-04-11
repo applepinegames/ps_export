@@ -1,5 +1,5 @@
 ﻿//
-// Takes the current Photoshop document and exports it as png. If pngquant
+// Takes the current Photoshop document and exports it as a png. If pngquant
 // is installed, it'll optimize the png too (see: https://pngquant.org)
 //
 
