@@ -6,12 +6,6 @@
 var PNG_QUANT_PATH = "/usr/local/bin/pngquant";
 
 var main = function() {
-  // Make sure the document is saved first, otherwise we won't know where to save our png
-  if (!app.activeDocument.saved) {
-    alert("Error: Document needs to be saved.");
-    return;
-  }
-
   // Get output path and save
   var outputPNGPath = app.activeDocument.path + "/" + app.activeDocument.name.split(".")[0] + ".png";
   savePNG(outputPNGPath);
