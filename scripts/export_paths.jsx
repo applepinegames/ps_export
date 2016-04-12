@@ -83,8 +83,8 @@ var writeToFile = function(file, points) {
   // Write to file in protobuf format, change this code to suit your own export format 
   file.writeln("polygons {");
   var seenPoints = {};
-  for (var j = 0; j < points.length; j++) {
-    var point = points[j];
+  for (var i = 0; i < points.length; i++) {
+    var point = points[i];
     if ([point.x, point.y] in seenPoints) {
       // Ignore duplicate points
       continue;
