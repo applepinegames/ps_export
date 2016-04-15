@@ -12,3 +12,11 @@ Runs both `scripts/export_png.jsx` and `scripts/export_paths.jsx`
 
 ## Generic install instructions
 To add any of these scripts to Photoshop's `File > Scripts` menu, drop the scripts into `<Photoshop application folder>/Presets/Scripts` and restart Photoshop.
+
+To call this script using a keyboard shortcut. 
+ 1. Open the Action window
+ 2. Create a new action
+ 3. While recording the action, run the script from the `File` menu
+ 4. Stop the action
+ 5. Double click on the action to bring up the Action Options
+ 6. Set a function key for the keyboard shortcut
